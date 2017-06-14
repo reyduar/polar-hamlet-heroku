@@ -1,4 +1,4 @@
-package ar.com.api.ibera;
+package ar.com.webapp.polarhamlet;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
