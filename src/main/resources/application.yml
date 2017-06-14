@@ -1,0 +1,26 @@
+# Banner file location.
+banner:
+      location: classpath:/banners/myapp.txt
+       
+# Mysql configuration
+spring:
+  thymeleaf:
+    cache: false
+  datasource:
+    url: jdbc:mysql://localhost:3306/iberadb?useSSL=false
+    username: root
+    password: masterin
+  jpa:
+    show-sql: true
+    properties: 
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+        
+
+        
+         
+        
